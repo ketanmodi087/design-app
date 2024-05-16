@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: "DM Sans", sans-serif;
+  color: #282828;
+  background-color: #F8F8FB;
+}
+
+.bg-color{
+  background: linear-gradient(146.36deg, #DFEAF0 7.24%, #D5E4EA 57.18%, #F4E7F4 98.87%);
+}
+
+.error-text{
+  color: #FF4E4E;
+}
+.input-field input{
+  min-height: 56px;
+  border-color: #B1B7D6;
+  border-radius: 10px;
+}
+
+* {
+  @apply text-[#282828];
+}

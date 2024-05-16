@@ -1,0 +1,14 @@
+.main-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.left-container::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(146.36deg, #DFEAF0 7.24%, #D5E4EA 57.18%, #F4E7F4 98.87%);
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
